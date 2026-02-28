@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PluginList>
+    <Plugin id="My DB Auto Gain ST" name="DB Auto Gain ST" category="DB Modules/DSP/Modifiers">
+        <Audio>
+            <Pin name="Original L" datatype="float" rate="audio"/>
+            <Pin name="Original R" datatype="float" rate="audio"/>
+			<Pin name="Effect L" datatype="float" rate="audio"/>
+			<Pin name="Effect R" datatype="float" rate="audio"/>
+            <Pin name="On/Off" datatype="bool"/>
+            <Pin name="Output L" datatype="float" rate="audio" direction="out"/>
+            <Pin name="Output R" datatype="float" rate="audio" direction="out"/>
+        </Audio>
+    </Plugin>
+</PluginList>

@@ -57,4 +57,8 @@ endif()
 include(plugin_helper.cmake)
 
 # here is where you list your modules
-add_subdirectory(Crusher)
+add_subdirectory(DB Detroit EQ ST)
+add_subdirectory(DB Detroit EQ)
+add_subdirectory(DB Tape Machine)
+add_subdirectory(DB Auto Gain)
+add_subdirectory(DB Auto Gain ST)

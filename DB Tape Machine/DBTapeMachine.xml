@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PluginList>
+    <Plugin id="My DB Tape Machine" name="DB Tape Machine" category="DB Modules/DSP/Effects">
+        <Audio>
+            <Pin name="Input L" datatype="float" rate="audio"/>
+            <Pin name="Input R" datatype="float" rate="audio"/>
+            <Pin name="Drive" datatype="float" rate="audio" default="0.0"/>
+            <Pin name="Bias" datatype="float" rate="audio" default="0.0"/>
+            <Pin name="Wow" datatype="float" rate="audio" default="0.0"/>
+            <Pin name="Flutter" datatype="float" rate="audio" default="0.0"/>
+            <Pin name="Output" datatype="float" rate="audio" default="0.0"/>
+			<Pin name="Oversample" datatype="bool" default="false"/>
+            <Pin name="ON/Off" datatype="bool" default="false"/>
+            <Pin name="Output L" datatype="float" rate="audio" direction="out"/>
+            <Pin name="Output R" datatype="float" rate="audio" direction="out"/>
+        </Audio>
+    </Plugin>
+</PluginList>
