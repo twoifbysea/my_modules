@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="DBAutoGainST.cpp"/>
+    <ClCompile Include="DBComparator.cpp"/>
 
     <ClCompile Include="..\se_sdk3\mp_sdk_audio.cpp">
       <Filter>sdk</Filter>
@@ -32,7 +32,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="DBAutoGainST.rc">
+    <ResourceCompile Include="DBComparator.rc">
       <Filter>Resources</Filter>
     </ResourceCompile>
   </ItemGroup>

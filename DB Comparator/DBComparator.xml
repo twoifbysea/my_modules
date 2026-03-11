@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PluginList>
+    <Plugin id="My DB Comparator" name="DB Comparator" category="DB Modules/DSP/Comparison">
+        <Audio>
+            <Pin name="Compare Value 1" datatype="float" rate="audio"/>
+            <Pin name="Compare Value 2" datatype="float" rate="audio"/>
+            <Pin name="Compare Mode" datatype="enum" metadata="Equal,Not Equal,Less Than,Greater Than,Less Than Or Equal,Greater Than Or Equal"/>
+            <Pin name="True Value" datatype="float" rate="audio" default="0.1"/>
+            <Pin name="False Value" datatype="float" rate="audio"/>
+            <Pin name="Use False Value" datatype="bool" default="1" noAutomation="true"/>
+            <Pin name="Value Out" datatype="float" rate="audio" direction="out"/>
+        </Audio>
+    </Plugin>
+</PluginList>

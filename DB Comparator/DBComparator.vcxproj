@@ -12,7 +12,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{411C7FFE-CC26-47D3-AE3C-89D9D5C68FFB}</ProjectGuid>
-    <RootNamespace>DBTapeMachine</RootNamespace>
+    <RootNamespace>DBComparator</RootNamespace>
     <Keyword>Win32Proj</Keyword>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -107,12 +107,12 @@ copy "$(OutDir)$(TargetName)$(TargetExt)" "C:\Program Files\Common Files\SynthEd
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="DBTapeMachine.xml" />
+    <None Include="DBComparator.xml" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\se_sdk3\mp_sdk_common.cpp" />
     <ClCompile Include="..\se_sdk3\mp_sdk_audio.cpp" />
-    <ClCompile Include="DBTapeMachine.cpp" />
+    <ClCompile Include="DBComparator.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />
@@ -120,7 +120,7 @@ copy "$(OutDir)$(TargetName)$(TargetExt)" "C:\Program Files\Common Files\SynthEd
     <ClInclude Include="..\se_sdk3\mp_sdk_audio.h" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="DBTapeMachine.rc" />
+    <ResourceCompile Include="DBComparator.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

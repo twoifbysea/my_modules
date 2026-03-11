@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CBCDAA719C13C95009EEA29 /* DBTapeMachine.sem in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8D576316048677EA00EA77CD /* DBTapeMachine.sem */; };
+		0CBCDAA719C13C95009EEA29 /* DBComparator.sem in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8D576316048677EA00EA77CD /* DBComparator.sem */; };
 		8D576314048677EA00EA77CD /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */; };
 		8D5B49A804867FD3000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D5B49A704867FD3000E48DA /* InfoPlist.strings */; };
-		A6A3AE631F6B303D00739EB5 /* DBTapeMachine.xml in Resources */ = {isa = PBXBuildFile; fileRef = A6A3AE621F6B303D00739EB5 /* DBTapeMachine.xml */; };
+		A6A3AE631F6B303D00739EB5 /* DBComparator.xml in Resources */ = {isa = PBXBuildFile; fileRef = A6A3AE621F6B303D00739EB5 /* DBComparator.xml */; };
 		D5C87A4017D6B09100ED3316 /* PkgInfo in Resources */ = {isa = PBXBuildFile; fileRef = D5C87A3F17D6B09100ED3316 /* PkgInfo */; };
 		D5C87B2217D6C83E00ED3316 /* mp_sdk_audio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5C87B1D17D6C83E00ED3316 /* mp_sdk_audio.cpp */; };
 		D5C87B2417D6C83E00ED3316 /* mp_sdk_common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5C87B2017D6C83E00ED3316 /* mp_sdk_common.cpp */; };
-		D5E7B83E17D8148F005D53E6 /* DBTapeMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5E7B83B17D8148F005D53E6 /* DBTapeMachine.cpp */; };
+		D5E7B83E17D8148F005D53E6 /* DBComparator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5E7B83B17D8148F005D53E6 /* DBComparator.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
-		8D576316048677EA00EA77CD /* DBTapeMachine.sem */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBTapeMachine.sem; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D576316048677EA00EA77CD /* DBComparator.sem */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBComparator.sem; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D576317048677EA00EA77CD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6A3AE621F6B303D00739EB5 /* DBTapeMachine.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = DBTapeMachine.xml; path = ../DBTapeMachine.xml; sourceTree = "<group>"; };
+		A6A3AE621F6B303D00739EB5 /* DBComparator.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = DBComparator.xml; path = ../DBComparator.xml; sourceTree = "<group>"; };
 		D5C87A3F17D6B09100ED3316 /* PkgInfo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PkgInfo; sourceTree = "<group>"; };
 		D5C87B1D17D6C83E00ED3316 /* mp_sdk_audio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mp_sdk_audio.cpp; path = ../../se_sdk3/mp_sdk_audio.cpp; sourceTree = SOURCE_ROOT; };
 		D5C87B1E17D6C83E00ED3316 /* mp_sdk_audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mp_sdk_audio.h; path = ../../se_sdk3/mp_sdk_audio.h; sourceTree = SOURCE_ROOT; };
 		D5C87B2017D6C83E00ED3316 /* mp_sdk_common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mp_sdk_common.cpp; path = ../../se_sdk3/mp_sdk_common.cpp; sourceTree = SOURCE_ROOT; };
 		D5C87B2117D6C83E00ED3316 /* mp_sdk_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mp_sdk_common.h; path = ../../se_sdk3/mp_sdk_common.h; sourceTree = SOURCE_ROOT; };
-		D5E7B83B17D8148F005D53E6 /* DBTapeMachine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DBTapeMachine.cpp; path = ../DBTapeMachine.cpp; sourceTree = SOURCE_ROOT; };
-		D5E7B83C17D8148F005D53E6 /* DBTapeMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBTapeMachine.h; path = ../DBTapeMachine.h; sourceTree = SOURCE_ROOT; };
+		D5E7B83B17D8148F005D53E6 /* DBComparator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DBComparator.cpp; path = ../DBComparator.cpp; sourceTree = SOURCE_ROOT; };
+		D5E7B83C17D8148F005D53E6 /* DBComparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBComparator.h; path = ../DBComparator.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 		089C167CFE841241C02AAC07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A6A3AE621F6B303D00739EB5 /* DBTapeMachine.xml */,
+				A6A3AE621F6B303D00739EB5 /* DBComparator.xml */,
 				8D576317048677EA00EA77CD /* Info.plist */,
 				8D5B49A704867FD3000E48DA /* InfoPlist.strings */,
 			);
@@ -78,8 +78,8 @@
 		08FB77AFFE84173DC02AAC07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				D5E7B83B17D8148F005D53E6 /* DBTapeMachine.cpp */,
-				D5E7B83C17D8148F005D53E6 /* DBTapeMachine.h */,
+				D5E7B83B17D8148F005D53E6 /* DBComparator.cpp */,
+				D5E7B83C17D8148F005D53E6 /* DBComparator.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -87,7 +87,7 @@
 		19C28FB6FE9D52B211CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D576316048677EA00EA77CD /* DBTapeMachine.sem */,
+				8D576316048677EA00EA77CD /* DBComparator.sem */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,9 +106,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D57630D048677EA00EA77CD /* DBTapeMachine */ = {
+		8D57630D048677EA00EA77CD /* DBComparator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEB911A08733D790010E9CD /* Build configuration list for PBXNativeTarget "DBTapeMachine" */;
+			buildConfigurationList = 1DEB911A08733D790010E9CD /* Build configuration list for PBXNativeTarget "DBComparator" */;
 			buildPhases = (
 				8D57630F048677EA00EA77CD /* Resources */,
 				8D576311048677EA00EA77CD /* Sources */,
@@ -119,10 +119,10 @@
 			);
 			dependencies = (
 			);
-			name = DBTapeMachine;
+			name = DBComparator;
 			productInstallPath = "$(HOME)/Library/Bundles";
 			productName = Untitled;
-			productReference = 8D576316048677EA00EA77CD /* DBTapeMachine.sem */;
+			productReference = 8D576316048677EA00EA77CD /* DBComparator.sem */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +133,7 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 1DEB911E08733D790010E9CD /* Build configuration list for PBXProject "DBTapeMachine" */;
+			buildConfigurationList = 1DEB911E08733D790010E9CD /* Build configuration list for PBXProject "DBComparator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -147,7 +147,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D57630D048677EA00EA77CD /* DBTapeMachine */,
+				8D57630D048677EA00EA77CD /* DBComparator */,
 			);
 		};
 /* End PBXProject section */
@@ -158,7 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D5B49A804867FD3000E48DA /* InfoPlist.strings in Resources */,
-				A6A3AE631F6B303D00739EB5 /* DBTapeMachine.xml in Resources */,
+				A6A3AE631F6B303D00739EB5 /* DBComparator.xml in Resources */,
 				D5C87A4017D6B09100ED3316 /* PkgInfo in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -172,7 +172,7 @@
 			files = (
 				D5C87B2217D6C83E00ED3316 /* mp_sdk_audio.cpp in Sources */,
 				D5C87B2417D6C83E00ED3316 /* mp_sdk_common.cpp in Sources */,
-				D5E7B83E17D8148F005D53E6 /* DBTapeMachine.cpp in Sources */,
+				D5E7B83E17D8148F005D53E6 /* DBComparator.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +256,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DEB911A08733D790010E9CD /* Build configuration list for PBXNativeTarget "DBTapeMachine" */ = {
+		1DEB911A08733D790010E9CD /* Build configuration list for PBXNativeTarget "DBComparator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB911B08733D790010E9CD /* Debug */,
@@ -265,7 +265,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DEB911E08733D790010E9CD /* Build configuration list for PBXProject "DBTapeMachine" */ = {
+		1DEB911E08733D790010E9CD /* Build configuration list for PBXProject "DBComparator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB911F08733D790010E9CD /* Debug */,
