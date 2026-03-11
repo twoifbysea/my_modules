@@ -57,12 +57,4 @@ endif()
 include(plugin_helper.cmake)
 
 # here is where you list your modules
-<<<<<<< HEAD
-add_subdirectory("DB Comparator")
-=======
-add_subdirectory("DB Detroit EQ")
-add_subdirectory("DB Detroit EQ ST")
-add_subdirectory("DB Tape Machine")
-add_subdirectory("DB Auto Gain")
-
->>>>>>> d0e88c50ead967e60b8892fa085693dcf7e9a1cf
+add_subdirectory("DB Comparator"
