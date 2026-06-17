@@ -4,9 +4,9 @@
         <Audio>
             <Pin name="File Name" datatype="string" isFilename="true" metadata="wav"/>
             <Pin name="Gate" datatype="bool" default="1"/>
-            <Pin name="Loop" datatype="bool" default="0"/>
+			<Pin name="Loop" datatype="bool" default="0"/>
             <Pin name="Output L" datatype="float" rate="audio" direction="out"/>
             <Pin name="Output R" datatype="float" rate="audio" direction="out"/>
-        </Audio> 
+        </Audio>
     </Plugin>
-</PluginList> 
+</PluginList>

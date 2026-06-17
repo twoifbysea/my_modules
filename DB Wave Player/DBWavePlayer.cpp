@@ -1,4 +1,5 @@
 #include "mp_sdk_audio.h"
+#include "unicode_conversion.h"
 
 #include <algorithm>
 #include <cstdint>
@@ -18,7 +19,7 @@ class DBWavePlayer final : public MpBase2
 
 	std::vector<float> leftSamples_;
 	std::vector<float> rightSamples_;
-	size_t sampleFrameCount_ = 0;
+	size_t sampleFrameCount_ = 0; 
 	double sampleFrameCountD_ = 0.0;
 	double playhead_ = 0.0;
 	double playIncrement_ = 1.0;
@@ -608,7 +609,7 @@ class DBWavePlayer final : public MpBase2
 	void subProcessLoop(int sampleFrames)
 	{
 		auto* leftOut = getBuffer(pinLeftOut);
-		auto* rightOut = getBuffer(pinRightOut); 
+		auto* rightOut = getBuffer(pinRightOut);
 
 		for (int s = 0; s < sampleFrames; ++s)
 		{
