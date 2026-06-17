@@ -1,8 +1,10 @@
 #include "mp_sdk_audio.h"
 
 #include <algorithm>
+#include <climits>
 #include <cstdint>
 #include <cstdio>
+#include <cstdlib>
 #include <cstring>
 #include <vector>
 
@@ -70,10 +72,24 @@ class DBWavePlayer final : public MpBase2
 		}
 
 		FILE* file = nullptr;
+#ifdef _WIN32
 		if (_wfopen_s(&file, filename.c_str(), L"rb") != 0 || !file)
 		{
 			return false;
 		}
+#else
+		std::vector<char> narrowName(filename.size() * MB_LEN_MAX + 1, '\0');
+		const std::size_t converted = std::wcstombs(narrowName.data(), filename.c_str(), narrowName.size());
+		if (converted == static_cast<std::size_t>(-1))
+		{
+			return false;
+		}
+		file = std::fopen(narrowName.data(), "rb");
+		if (!file)
+		{
+			return false;
+		}
+#endif
 
 		if (std::fseek(file, 0, SEEK_END) != 0)
 		{
