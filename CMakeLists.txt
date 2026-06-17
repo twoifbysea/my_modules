@@ -59,5 +59,5 @@ include(plugin_helper.cmake)
 # here is where you list your modules
 # Add you own modules here. One folder per module.
 add_subdirectory("DB Fixed Float")
-add_subdirectory("DB Audio Player")
+add_subdirectory("DB Wave Player")
 add_subdirectory("DB Rescaler Float (GUI)")
