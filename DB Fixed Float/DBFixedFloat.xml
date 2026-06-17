@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PluginList>
+    <Plugin id="DB Fixed Float" name="DB Fixed Float" category="DB Modules/DSP/Fixed Values">
+        <Audio>
+            <Pin name="Value" datatype="float" isMinimised="true"/>
+            <Pin name="Out" datatype="float" direction="out"/>
+        </Audio>
+    </Plugin>
+</PluginList>

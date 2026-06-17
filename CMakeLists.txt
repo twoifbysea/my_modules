@@ -57,4 +57,5 @@ endif()
 include(plugin_helper.cmake)
 
 # here is where you list your modules
-add_subdirectory("DB Comparator"
+# Add you own modules here. One folder per module.
+add_subdirectory("DB Fixed Float")
