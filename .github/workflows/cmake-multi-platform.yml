@@ -1,6 +1,6 @@
 # This starter workflow is for a CMake project running on multiple platforms. There is a different starter workflow if you just want a single platform.
 # See: https://github.com/actions/starter-workflows/blob/main/ci/cmake-single-platform.yml
-name: CMake on Windows
+name: CMake on Windows and macOS
 
 on:
   push:
@@ -10,8 +10,21 @@ on:
 
 jobs:
   build:
-    name: Windows
-    runs-on: windows-latest
+    name: ${{ matrix.platform.name }}
+    runs-on: ${{ matrix.platform.runs-on }}
+
+    strategy:
+      fail-fast: false
+      matrix:
+        platform:
+          - name: Windows
+            runs-on: windows-latest
+            artifact_name: Windows_SEM
+            build_config: Release
+          - name: macOS
+            runs-on: macos-latest
+            artifact_name: macOS_SEM
+            build_config: Release
 
     steps:
       - uses: actions/checkout@v4
@@ -25,16 +38,16 @@ jobs:
       - name: Configure CMake
         run: >
           cmake -B ${{ steps.strings.outputs.build-output-dir }}
-          -DCMAKE_BUILD_TYPE=Release
+          -DCMAKE_BUILD_TYPE=${{ matrix.platform.build_config }}
           -S ${{ github.workspace }}
 
       - name: Build
-        run: cmake --build ${{ steps.strings.outputs.build-output-dir }} --config Release
+        run: cmake --build ${{ steps.strings.outputs.build-output-dir }} --config ${{ matrix.platform.build_config }}
 
       - name: Upload SEM
         uses: actions/upload-artifact@v4
         with:
-          name: Windows_SEM
+          name: ${{ matrix.platform.artifact_name }}
           path: |
             **/*.sem
             **/*.sem/
